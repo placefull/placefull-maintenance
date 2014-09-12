@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Scheduling and Appointment Booking Software</title>
+	<style type="text/css">
+		body {
+		   margin:0;
+		   padding:0;
+		   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		html, body, #bg {
+		   height:100%;
+		   width:100%;
+		}
+		#bg {
+		   position:absolute; 
+		   left:0;
+		   right:0;
+		   bottom:0;
+		   top:0;
+		   overflow:hidden;
+		   z-index:0;
+		   background-image: url('https://pfprod.blob.core.windows.net/myplacefull/masthead-trampoline.jpg');
+		   background-size: cover;
+		   background-repeat: no-repeat;
+		   background-position: center center;
+		   color: white;
+		}
+		#bg:after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: auto;
+			width: 100%;
+			height: 100%;
+			content: '';
+			background: rgba(0, 0, 0, 0.6);
+		}
+
+.Center-Container {
+color: #4fa46b;
+width: 100%;
+height: 400px;
+margin: 20px auto 40px;
+clear: both;
+}
+.Center-Container {
+position: relative;
+}
+.Center-Block {
+color: #FFF;
+padding: 20px;
+}
+.Absolute-Center {
+height: 50%;
+width: 50%;
+overflow: auto;
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+text-align: center;
+}
+h1{
+	font-size: 30px;
+margin-bottom: 15px;
+font-weight: 300;
+line-height: 1.15;
+}
+.pf-logo {
+float: left;
+width: 164px;
+height: 28px;
+background-repeat: no-repeat;
+text-indent: -999em;
+background-image: url(pf-logo-sprite.png);
+}
+	</style>
+
+</head>
+<body>
+	<div id="bg">
+	</div>
+	<div class="Center-Container">
+		<div class="Center-Block Absolute-Center">
+			<a href="https://my.placefull.com/"><img src="pf-logo.png"/></a>
+			<h4 class="Title">You just missed us!</h4>
+			<p>We're busy updating our site to be the best.</p>
+			<p>Seriously.  The best.</p>
+		</div>
+	</div>
+</body>
+</html>
